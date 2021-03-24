@@ -442,13 +442,72 @@
       </div>
     </footer>
     <!--============ MODAL ============-->
-    <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop" data-modal>
       <div class="modal">
         <button data-modal-close type="button" class="close-button-wrap">
           <svg class="close-button" width="18px" height="18px">
             <use href="./images/sprite.svg#icon-close"></use>
           </svg>
         </button>
+        <div class="form-wrapper">
+          <p class="form-name">Оставьте свои данные, мы вам перезвоним</p>
+          <form action="#" class="modal-form" autocomplete="off">
+            <label for="name">Имя</label>
+            <span class="modal-field-wrapper">
+              <input type="text" name="name" id="name" />
+              <svg class="form-icons" width="18px" height="18px">
+                <use href="./images/sprite.svg#icon-person-black"></use>
+              </svg>
+            </span>
+
+            <label for="tel">Телефон</label>
+            <span class="modal-field-wrapper">
+              <input rype="tel" name="tel" id="tel" />
+              <svg class="form-icons" width="18px" height="18px">
+                <use href="./images/sprite.svg#icon-phone-black"></use>
+              </svg>
+            </span>
+
+            <label for="mail">Почта</label>
+            <span class="modal-field-wrapper">
+              <input type="email" name="email" id="mail" />
+              <svg class="form-icons" width="18px" height="18px">
+                <use href="./images/sprite.svg#icon-email-black"></use>
+              </svg>
+            </span>
+
+            <label for="message" name="comment">Комментарий</label>
+            <textarea
+              name="message"
+              id="message"
+              rows="6"
+              placeholder="Введите текст"
+            ></textarea>
+
+            <div class="agreement-modal" role="group" aria-label="agre">
+              <input
+                type="checkbox"
+                id="user-term"
+                name="user-term"
+                class="check-box visually-hidden"
+              />
+              <label for="check-box" class="modal-form-check-box"
+                >Соглашаюсь с рассылкой и принимаю&nbsp;<a
+                  href=""
+                  class="check-box-link"
+                  >Условия договора</a
+                ><svg class="check-box-icon" width="18px" height="18px">
+                  <use href="./images/sprite.svg#icon-check"></use>
+                </svg>
+              </label>
+              <span class=""></span>
+              <!-- <svg class="custom-check-box" width="18px" height="18px">
+                <use href="./images/sprite.svg#icon-check"></use>
+              </svg> -->
+            </div>
+            <button type="submit" class="modal-form-btn">Отправить</button>
+          </form>
+        </div>
       </div>
     </div>
     <!--============ JAVA SCRIPT  ============-->
