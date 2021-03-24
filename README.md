@@ -1,2 +1,1 @@
-# goit-markup-hw-06
-Разметка и стилизация форм
+# goit-markup-hw-05
