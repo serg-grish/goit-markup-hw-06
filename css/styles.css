@@ -631,6 +631,7 @@ form {
 }
 
 .team-icons {
+  color: var(--partner-icon);
   fill: currentColor;
 }
 
@@ -641,7 +642,7 @@ form {
 
 .icon-items-link:hover .team-icons,
 .icon-items-link:focus .team-icons {
-  fill: var(--secondary-accent-color);
+  color: var(--secondary-accent-color);
 }
 
 /* ============ PARTNERS ============ */
