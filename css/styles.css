@@ -637,6 +637,7 @@ form {
 
 .icon-items-link:hover,
 .icon-items-link:focus {
+  color: var(--secondary-accent-color);
   background-color: var(--accent-color);
 }
 
